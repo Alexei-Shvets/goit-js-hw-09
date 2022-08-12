@@ -28,10 +28,6 @@ const options = {
 };
 flatpickr(inputObj, options);
 
-function addLeadingZero(value) {
-  padStart();
-}
-
 function convertMs(ms) {
   const second = delay;
   const minute = second * 60;
